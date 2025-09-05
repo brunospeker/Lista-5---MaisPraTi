@@ -1,12 +1,24 @@
-# React + Vite
+# Atividade 5 - MaisPraTi
+Atividade 5 do curso de Dev. Full Stack Jr. (+praTi & Codifica)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Como configurar e executar
+É bastante simples. Primeiro clone o repositório na sua IDE (recomendável VSCode)
+```sh
+git clone https://github.com/brunospeker/Lista-5---MaisPraTi.git
+```
+Depois execute o comando no terminal da IDE.
+```sh
+npm install
+```
+E por fim, execute o código para executar o react.
+```sh
+npm run dev
+```
+Copie e cole o link que aparecer no navegador para visualizar.
 
-Currently, two official plugins are available:
+## Motivação
+A motivação foi fazer as páginas o mais simples o possível, mantendo a maior parte da estrutura standard do próprio react, juntamente mostrando o meu conhecimento com base nas aulas.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Autor
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [@brunospeker](https://www.github.com/brunospeker)
