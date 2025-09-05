@@ -1,0 +1,46 @@
+.pagina-detalhe {
+max-width: 600px;
+margin: 0 auto;
+padding: 1rem;
+}
+
+.pagina-detalhe h1 {
+font-size: 2rem;
+margin-bottom: 1rem;
+}
+
+.pagina-detalhe img {
+width: 400px;
+margin-bottom: 1rem;
+}
+
+.pagina-detalhe p {
+font-size: 1rem;
+margin: 0.5rem 0;
+}
+
+.botao-favorito {
+display: flex;
+align-items: center;
+gap: 0.5rem;
+padding: 0.5rem 1rem;
+font-size: 1rem;
+cursor: pointer;
+border: 1px solid #ccc;
+border-radius: 5px;
+background-color: white;
+width: 100%;
+text-align: center;
+}
+
+.botao-favorito-fav {
+background-color: #ffe6e6;
+}
+
+.botao-favorito svg {
+margin-right: 0.5rem;
+}
+
+.botao-favorito:hover {
+background-color: #f0f0f0;
+}

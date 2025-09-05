@@ -1,0 +1,52 @@
+.pagina-favoritos {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+  
+.titulo {
+font-size: 2rem;
+text-align: center;
+}
+
+.grid {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+gap: 1rem;
+}
+
+.filme-card {
+border: 1px solid #ccc;
+padding: 0.5rem;
+border-radius: 5px;
+text-align: center;
+}
+
+.filme-card img {
+max-width: 100%;
+height: auto;
+}
+
+.filme-titulo {
+font-size: 0.9rem;
+}
+
+.botaoescolher {
+background-color: #ff4c4c;
+color: white;
+border: none;
+padding: 0.5rem 1rem;
+border-radius: 5px;
+cursor: pointer;
+margin-top: 0.5rem;
+display: inline-flex;
+align-items: center;
+}
+
+.botaoescolher:hover {
+background-color: #ff2a2a;
+}
+
+.botaoescolher svg {
+margin-right: 0.5rem;
+}
